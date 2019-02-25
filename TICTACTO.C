@@ -45,8 +45,13 @@ void showframe(int posx, int posy)
   	cprintf("#\n");
   	gotoxy(25,k);
   }
-  
-  
+  k=5;
+  gotoxy(41,k);
+  for(k=5;k<10;k++)
+  {
+  	cprintf("#\n");
+  	gotoxy(41,k);
+  }
    
   //gotoxy(60,5); for(i=0;i<11;i++) cprintf("%c",223);
 
