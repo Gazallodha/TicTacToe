@@ -36,10 +36,24 @@ void showframe(int posx, int posy)
   int hr=196, vr=179; // These are ascii character which display the lines
   int crossbr=197;    // Another ascii character
   int x=posx, y=posy;
-  int i,j;
+  int i,j,k;
 
-  gotoxy(60,4); cprintf("TIC TAC TOE");
-  gotoxy(60,5); for(i=0;i<11;i++) cprintf("%c",223);
+  gotoxy(20,4); cprintf("###########    ###########");
+  gotoxy(25,5);
+  for(k=5;k<10;k++)
+  {
+  	cprintf("#\n");
+  	gotoxy(25,k);
+  }
+  k=5;
+  gotoxy(41,k);
+  for(k=5;k<10;k++)
+  {
+  	cprintf("#\n");
+  	gotoxy(41,k);
+  }
+   
+  //gotoxy(60,5); for(i=0;i<11;i++) cprintf("%c",223);
 
 
   for(i=0;i<2;i++)
