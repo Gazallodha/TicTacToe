@@ -304,8 +304,8 @@ int main()
 
   gotoxy(2,18);
   printf("Welcome to Tic Tac Toe");
-  printf("\n Rules are simple. Navigate to the box with arrow keys [%c %c %c %c] and hit enter.",30,31,17,16);
-  printf("\n If you try to overwrite a box, then your chance will be passed on.");
+  printf("\n Rules are simple.\n Navigate to the box with arrow keys [%c %c %c %c] and hit enter.",30,31,17,16);
+  printf("\n If you try to overwrite a box, then your chance will be passed on to next player");
   fillrandom(arr); //Filling random character to the array
 
   printf("\n Player 1, enter your name: "); gets(player[0]); //Get player1's name
