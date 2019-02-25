@@ -285,7 +285,7 @@ int main()
   O_OR_X[0] = 'O'; O_OR_X[1] = 'X';
   do{
 
-   textbackground(YELLOW); textcolor(RED); //Set the specified background and textcolor
+   textbackground(BLUE); textcolor(GREEN); //Set the specified background and textcolor
    clrscr(); //Clears the screen - defined in conio.h(conio2.h)
 
   _x = 60; _y = 12;
