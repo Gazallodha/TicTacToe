@@ -299,7 +299,7 @@ int main()
   O_OR_X[0] = 'O'; O_OR_X[1] = 'X';
   do{
 
-   textbackground(YELLOW); textcolor(RED); //Set the specified background and textcolor
+   textbackground(GREEN); textcolor(BLUE); //Set the specified background and textcolor
    clrscr(); //Clears the screen - defined in conio.h(conio2.h)
 
   _x = 60; _y = 12;
@@ -325,7 +325,8 @@ int main()
   printf("\n Player 1, enter your name: "); gets(player[0]); //Get player1's name
   printf(" Player 2, enter your name: ");   gets(player[1]); //Get player2's name
 
-  printf("\n %s, you have been given O             %s, you have been given X",player[0],player[1]);
+  printf("\n %s, you have been given O\n",player[0]); 
+  printf(" %s, you have been given X\n",player[1]);    
   printf("\n Lets begin ( press any key )"); getch();
 
 
